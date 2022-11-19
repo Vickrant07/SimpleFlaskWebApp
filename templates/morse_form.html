@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<form action="" method="POST">
+
+    <label>Type your message:</label>
+    <input type="text" size="50" name="message" id="message" />
+    <br />
+    {{ error }}
+    <input type="submit" />
+    
+
+</form>
+
+{% endblock %}
